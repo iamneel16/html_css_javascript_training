@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                var total,result,score
+                function percentage(sub1,sub2,sub3,sub4,sub5)
+                {
+                    total = sub1+sub2+sub3+sub4+sub5
+                    result = (total/500)*100
+                    return result
+                     
+                } 
+                score = percentage(90,80,85,90,95)
+                console.log("Percentage Scored Are " + score)
+
+                if(score>=85)
+                {
+                    console.log("Grade A")
+                }
+                else if (score>=75 && score<85)
+                {
+                    console.log("Grade B")
+                }
+
+                else if(score>=65 && score<75)
+                {
+                    console.log("Grade C");
+                }
+
+                else
+                {
+                    console.log("Grade D")
+                }
+                
+
+    </script>
+</body>
+</html>

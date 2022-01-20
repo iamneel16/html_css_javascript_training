@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input[type=text], select {
+      width: 100%;
+      
+      margin: 8px 0;
+      
+      border: 2px solid black;
+    
+      
+    }
+    input[type=submit] {
+      width: 100%;
+      background-color: greenyellow;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 17px;
+      margin: 8px 0%;
+      border: outset;
+      border-radius: 20px;
+      border-color: black;
+      cursor: pointer;
+    }
+    input[type=reset] {
+      width: 100%;
+      background-color: red;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 17px;
+      margin: 8px 0%;
+      border: groove;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    div {
+      border-radius: 50px;
+      
+      background-color: rgba(241, 241, 241, 0.966);
+      padding: 20px;
+    }
+    h2 {text-align: center;}
+</style>
+<body>
+    
+    <h2>International Student Data</h2>
+    <form >
+        
+        <div>
+           <b>First Name:</b> <input type="text" name="myFirstName" id="name" placeholder="Virat">
+        </div>
+        <br>
+        <div>
+            <b>Last Name:</b> <input type="text" name="myLastname" placeholder="Kohli">
+        </div>
+        <br>
+        <div>
+            <b>Email:</b> <input type="email" name="myEmail" placeholder="abc@gmail.com">
+        </div>
+
+        <br>
+        <div>
+            <b>Date Of Birth:</b> <input type="date" name="myDate">
+        </div>
+
+        <br>
+        <div>
+            <b>Gender</b>: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        
+        <br>
+
+        <div>
+        <b>Skillset: </b>Python <input type="checkbox" name="myCheckbox"> Java <input type="checkbox" name="myCheckbox">C++ <input type="checkbox" name="myCheckbox">Node.js <input type="checkbox" name="myCheckbox">
+        </div>
+        
+        <div>
+            
+            <b>Country</b>:<select name="myCountry" id="country">
+                <option value="ind">India</option>
+                <option value="aus">Australia</option>
+                <option value="pak">Pakistan</option>
+                <option value="chi">China</option>
+            </select>
+        </div>
+
+       
+        <br>
+
+ 
+
+       <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+            var array = [
+            {name: "John", age: 34, salary: 30000},
+            {name: "Peter", age: 54, salary: 70000},
+            {name: "Jake", age: 25, salary: 50000}
+            ];
+
+            array.sort(function(a, b) {
+            return a.salary - b.salary;
+            });
+            console.log(array)
+
+    </script>
+
+</body>
+</html>
