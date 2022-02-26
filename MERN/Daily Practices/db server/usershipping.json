@@ -1,0 +1,24 @@
+{
+  "usershipping": [
+    {
+      "userid": "admin1",
+      "password": "pwd1",
+      "status": "true"
+    },
+    {
+      "userid": "admin2",
+      "password": "pwd2",
+      "status": "true"
+    },
+    {
+      "userid": "admin3",
+      "password": "pwd3",
+      "status": "true"
+    },
+    {
+      "id": "neel16",
+      "password": "123456",
+      "status": "false"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Vendor": [
+    {
+      "id": "1",
+      "vendorName": "Rahul",
+      "contact": "12548",
+      "type": "true"
+    },
+    {
+      "id": "2",
+      "vendorName": "Virat",
+      "contact": "23332",
+      "type": "false"
+    },
+    {
+      "id": "3",
+      "vendorName": "Rohit",
+      "contact": "43421",
+      "type": "true"
+    },
+    {
+      "id": "5",
+      "vendorName": "Neel",
+      "contact": "97275",
+      "type": "true"
+    },
+    {
+      "id": "8",
+      "vendorName": "Yuvraj",
+      "contact": "13579",
+      "type": "true"
+    },
+    {
+      "id": "9",
+      "vendorName": "Yash",
+      "contact": "2468",
+      "type": "false"
+    },
+    {
+      "id": "10",
+      "vendorName": "Tarak",
+      "contact": "13542",
+      "type": "true"
+    },
+    {
+      "id": "13",
+      "vendorName": "Neel",
+      "contact": "01987",
+      "type": "false"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{ "sidebar":[
+	{"id":1,"menu":[3,5],"status":"true"},
+	{"id":2,"menu":[2,5],"status":"false"},
+	{"id":3,"menu":[1,2],"status":"true"}
+]
+}

@@ -1,0 +1,40 @@
+{
+  "Employee": [
+    {
+      "id": "1",
+      "employeeName": "Rahul",
+      "address": "Sector 1",
+      "city": "Gandhinagar"
+    },
+    {
+      "id": "2",
+      "employeeName": "Virat",
+      "address": "Sector 2",
+      "city": "Pune"
+    },
+    {
+      "id": "3",
+      "employeeName": "Yash",
+      "address": "Sector 3",
+      "city": "Noida"
+    },
+    {
+      "id": "4",
+      "employeeName": "Chris",
+      "address": "Sector 4",
+      "city": "Chennai"
+    },
+    {
+      "id": "5",
+      "employeeName": "Rakesh",
+      "address": "Sector 27",
+      "city": "Ahmdedabad"
+    },
+    {
+      "id": "6",
+      "employeeName": "Vansh",
+      "address": "Sector 22",
+      "city": "Mumbai"
+    }
+  ]
+}
