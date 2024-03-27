@@ -1,2 +1,2 @@
-# html_css_javascript_training
+# MERN Projects
  # contains all codes practiced during training
